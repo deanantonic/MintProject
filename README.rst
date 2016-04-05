@@ -7,6 +7,14 @@ already installed, along side some other useful apps.
 
 This setup is somewhat personalized to my need, feel free to suggest changes.
 
+-Added my own requirements.txt because of certain dependencies
+
+Known errors:
+
+Linux Mint 17.3 - E: You must put some 'source' URIs in your sources.list
+
+                  Solution: Go to Software Sources and enable source code repositories.
+
 ==========
 Quickstart
 ==========
@@ -84,4 +92,4 @@ There is also a ``make restart`` command you can use to restart your server.
 Credits
 =======
 
-This project base setup idea is based on `dj-skeletor <https://github.com/senko/dj-skeletor>`_.
+This project base setup idea is based on `djangocms-skeletor <https://github.com/dinoperovic/djangocms-skeletor>`_.

@@ -30,7 +30,7 @@ Known Errors
                   libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk`` 
 
 
-4. Linux Mint 17.3 - make dev-setup fails    E: ``You must put some 'source' URIs in your sources.list`
+4. Linux Mint 17.3 - make dev-setup fails    E: ``You must put some 'source' URIs in your sources.list``
 
                   Solution: ``Go to Software Sources and enable source code repositories.``
 

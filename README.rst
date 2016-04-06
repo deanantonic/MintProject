@@ -7,13 +7,32 @@ already installed, along side some other useful apps.
 
 This setup is somewhat personalized to my need, feel free to suggest changes.
 
--Added my own requirements.txt because of certain dependencies
+You will need to have some dependencies installed globally:
 
-Known errors:
+`sudo apt-get install libmysqlclient-dev libtiff5-dev libjpeg8-dev zlib1g-dev 
+libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk` 
 
-Linux Mint 17.3 - E: You must put some 'source' URIs in your sources.list
+============
+Known Errors
+============
 
-                  Solution: Go to Software Sources and enable source code repositories.
+1. mysql-python fails with during install    E: `EnvironmentError: mysql_config not found`
+
+                  Solution: `sudo apt-get install libmysqlclient-dev`
+      
+2. MySQL-python fails during build           E: `failed with error code 1`
+                  
+                  Solution: `sudo apt-get build-dep python-mysqldb`  
+
+3. Pillow fails during build                 E: `failed with error code 1`
+
+                  Solution: `sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev \
+                  libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk` 
+
+
+4. Linux Mint 17.3 - make dev-setup fails    E: `You must put some 'source' URIs in your sources.list`
+
+                  Solution: `Go to Software Sources and enable source code repositories.`
 
 ==========
 Quickstart

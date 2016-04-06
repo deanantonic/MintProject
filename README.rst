@@ -32,7 +32,7 @@ Known Errors
 
 4. Linux Mint 17.3 - make dev-setup fails    E: ``You must put some 'source' URIs in your sources.list`
 
-                  Solution: `Go to Software Sources and enable source code repositories.``
+                  Solution: ``Go to Software Sources and enable source code repositories.``
 
 ==========
 Quickstart

@@ -9,30 +9,30 @@ This setup is somewhat personalized to my need, feel free to suggest changes.
 
 You will need to have some dependencies installed globally:
 
-`sudo apt-get install libmysqlclient-dev libtiff5-dev libjpeg8-dev zlib1g-dev 
-libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk` 
+``sudo apt-get install libmysqlclient-dev libtiff5-dev libjpeg8-dev zlib1g-dev 
+libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk`` 
 
 ============
 Known Errors
 ============
 
-1. mysql-python fails with during install    E: `EnvironmentError: mysql_config not found`
+1. mysql-python fails with during install    E: ``EnvironmentError: mysql_config not found``
 
-                  Solution: `sudo apt-get install libmysqlclient-dev`
+                  Solution: ``sudo apt-get install libmysqlclient-dev``
       
-2. MySQL-python fails during build           E: `failed with error code 1`
+2. MySQL-python fails during build           E: ``failed with error code 1``
                   
-                  Solution: `sudo apt-get build-dep python-mysqldb`  
+                  Solution: ``sudo apt-get build-dep python-mysqldb``  
 
-3. Pillow fails during build                 E: `failed with error code 1`
+3. Pillow fails during build                 E: ``failed with error code 1``
 
-                  Solution: `sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev \
-                  libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk` 
+                  Solution: ``sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev \
+                  libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk`` 
 
 
-4. Linux Mint 17.3 - make dev-setup fails    E: `You must put some 'source' URIs in your sources.list`
+4. Linux Mint 17.3 - make dev-setup fails    E: ``You must put some 'source' URIs in your sources.list`
 
-                  Solution: `Go to Software Sources and enable source code repositories.`
+                  Solution: `Go to Software Sources and enable source code repositories.``
 
 ==========
 Quickstart
